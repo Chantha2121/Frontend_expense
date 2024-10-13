@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form id="signupForm" method="POST" enctype="multipart/form-data" class="signup-form">
+            <input type="text" id="name" name="name" placeholder="Enter name" class="input-field" required /><br><br>
+            <input type="email" id="email" name="email" placeholder="Enter email" class="input-field" required /><br><br>
+            <input type="password" id="password" name="password" placeholder="Enter password" class="input-field" required /><br><br>
+            <input type="text" id="balance" name="balance" placeholder="Enter balance" class="input-field" required /><br><br>
+            <input type="file" id="user_image" name="user_image" class="file-input" /><br><br>
+            <input type="submit" name="submit" id="submit" value="Register" class="submit-btn" />
+        </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

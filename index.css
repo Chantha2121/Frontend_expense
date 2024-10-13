@@ -1,0 +1,92 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body background and centering */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Container for the form and elements */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+/* Form heading */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Input fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit and other buttons */
+.submit-btn, .signup-btn, .data-btn, .action-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* Button for fetching data */
+.action-btn {
+    background-color: #2196F3;
+    margin-bottom: 20px;
+}
+
+/* Hover effects */
+.submit-btn:hover, .signup-btn:hover, .data-btn:hover, .action-btn:hover {
+    background-color: #45a049;
+}
+
+/* Sign-up button specific style */
+.signup-btn {
+    background-color: #2196F3;
+}
+
+.signup-btn:hover {
+    background-color: #0b7dda;
+}
+
+/* Data paragraph */
+.public-data {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Extra information text */
+p {
+    color: #666;
+    font-size: 14px;
+}
